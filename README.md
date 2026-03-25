@@ -1,4 +1,4 @@
-# Medical Reminder and AI Healthcare System (Ollama)
+# Medical Reminder and AI Healthcare System (Ollama) ( Only the backend )
 
 ## Overview
 The Medical Reminder and AI Healthcare System is an intelligent healthcare assistant designed to help users manage their medication schedules and receive AI-based health guidance.  
@@ -24,10 +24,7 @@ The system aims to improve medication adherence and provide basic health support
 
 - Python
 - Ollama (Local LLM)
-- Flask / Backend Framework
-- HTML
-- CSS
-- JavaScript
+- FastAPI
 
 ---
 
@@ -35,17 +32,17 @@ The system aims to improve medication adherence and provide basic health support
 
 The system works through the following components:
 
-1. User Interface  
-   Allows users to interact with the system, set reminders, and communicate with the AI assistant.
-
-2. Backend Server  
+1. Backend Server  
    Handles application logic, user requests, and reminder scheduling.
 
-3. AI Model (Ollama)  
+2. AI Model (Ollama)  
    Provides AI-generated healthcare guidance and responses.
 
-4. Reminder Scheduler  
+3. Reminder Scheduler  
    Manages medication schedules and sends reminders to the user.
+
+4. Alarm Beep
+   Whent the reminder time finishes on ending the code makes a beep sound.
 
 ---
 
