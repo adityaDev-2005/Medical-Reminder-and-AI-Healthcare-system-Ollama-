@@ -41,8 +41,7 @@ The system works through the following components:
 3. Reminder Scheduler  
    Manages medication schedules and sends reminders to the user.
 
-4. Alarm Beep
-   When the reminder time finishes on ending the code makes a beep sound.
+4. Alarm Beep on reminder time ending.
 
 ---
 
